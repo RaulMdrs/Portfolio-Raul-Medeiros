@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+
+:root {
+    --background-button-color: #6c1a84;
+    --primary-text-color: #fff;
+    --links-color: #7E95AA;
+    --profission-color: #748FB5;
+    --description-color: #7E95AA;
+
+    --primary-font: 'Inter', sans-serif;
+    --secundary-font: 'Poppins', sans-serif;
+}
+
+header{
+    margin-top: 48px;
+    position: relative;
+}
+
+body{
+    padding: 10px 50px;
+    max-width: 100vw;
+    background-color: black;
+    background-image: url("../assets/backgroundStars.png");
+}
+
+main{
+    margin-top: 5rem;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cabecalho_link{
+    color: var(--links-color);
+    text-decoration: none;
+    transition: color 450ms ease-in-out, font-size 400ms ease-in-out;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-family: var(--primary-font);
+}
+
+.cabecalho_link:hover{
+    color: var(--background-button-color);
+    font-size: 1.15rem;
+}
+
+.primary_button{
+    background-color: var(--background-button-color);
+    color: var(--primary-text-color);
+    border-radius: 16px;
+    border: 0px;
+    width: 155px;
+    height: 55px;
+
+    font-weight: 700;
+    font-size: 1rem;
+    transition: transform 390ms ease-in-out;
+}
+
+.primary_button:hover{
+    transform: scaleX(1.05);
+}
+
+.cabecalho_button_position{
+    position: absolute;
+    right: 80px; 
+    top: -20px;
+}
+
+.apresentacao{
+    display: flex;
+    gap: 100px;
+}
+
+.conteudo{
+    margin-left: 160px;
+    max-width: 60%;
+}
+
+.conteudo_profissao{
+    color: var(--profission-color);
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.conteudo_titulo{
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: var(--secundary-font);
+    color: var(--primary-text-color);
+}
+
+.conteudo_descricao{
+    color: var(--description-color);
+    font-weight: 400;
+    font-size: 1.1rem;
+    font-family: var(--primary-font);
+}
+
+.conteudo_buttons{
+    margin-top: 40px;
+    display:flex;
+    gap: 2rem;
+}
+
+.link_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-text-color);
+    background: transparent;
+    gap: 10px;
+    width: 270px;
+    height: 55px;
+    border-radius: 16px;
+    border: 2px solid #fff ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    transition: transform 390ms ease-in-out;
+}
+
+.link_button:hover{
+    transform: scaleX(1.05);
+}
+
+.profile{
+    max-height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_photo{
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 423px;
+    width: 421px;
+    background-color: #FF80CE;
+    background-image: url(../assets/FotoSelfie.jpeg);
+    background-position: center;
+    background-size: 95%;
+    box-shadow: 5px 5px 5px rgba(137, 11, 129, 0.606);
+}
+
+.habilidades{
+    margin-top: 300px;
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 500px;
+}
+
+.habilidades_secoes{
+    display: flex;
+    gap: 48px;
+}
+
+.habilidades_secoes_secao{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 423px;
+    width: 256px;
+    background-color: #2C353D;
+    border-radius: 24px;
+    border: 1px solid #fff;
+    overflow: hidden;
+    transition: height 440ms ease-in-out;
+}
+
+.habilidades_secoes_secao:hover{
+    height: 600px;
+}
+
+.habilidades_image_card{
+    height: 230px;
+    width: 230px;
+}
+
+.redes_sociais{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.rodape_fim{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.rodape_titulo{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+}
+
+.rodape_fim_consideracoes_finais{
+    font-size: 1rem;
+    font-weight: 200;
+    font-family: var(--primary-font);
+    color: var(--primary-text-color);
+}
+
+.rodape_contato{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    color: var(--description-color);
+}
+
+footer{
+    margin: 10px;
+    padding: 150px 150px;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
