@@ -182,12 +182,26 @@ main{
 }
 
 .habilidades_secoes_secao:hover{
-    height: 600px;
+    height: 650px;
 }
 
 .habilidades_image_card{
     height: 230px;
     width: 230px;
+}
+
+.habilidades_descricao{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+.habilidades_nome{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 .redes_sociais{
@@ -224,7 +238,7 @@ main{
 }
 
 footer{
-    margin: 10px;
+    margin-top: 50px;
     padding: 150px 150px;
     background-color: black;
 }
