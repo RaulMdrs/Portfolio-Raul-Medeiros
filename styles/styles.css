@@ -13,12 +13,12 @@
     --secundary-font: 'Poppins', sans-serif;
 }
 
-header{
+header {
     margin-top: 48px;
     position: relative;
 }
 
-body{
+body {
     padding: 10px 50px;
     max-width: 100vw;
     background-color: black;
@@ -29,14 +29,20 @@ main{
     margin-top: 5rem;
 }
 
-.cabecalho{
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 10rem;
+}
+
+.cabecalho__links {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 32px;
 }
 
-.cabecalho_link{
+.cabecalho_link { 
     color: var(--links-color);
     text-decoration: none;
     transition: color 450ms ease-in-out, font-size 400ms ease-in-out;
@@ -45,12 +51,12 @@ main{
     font-family: var(--primary-font);
 }
 
-.cabecalho_link:hover{
+.cabecalho_link:hover {
     color: var(--background-button-color);
     font-size: 1.15rem;
 }
 
-.primary_button{
+.primary_button {
     background-color: var(--background-button-color);
     color: var(--primary-text-color);
     border-radius: 16px;
@@ -75,11 +81,11 @@ main{
 
 .apresentacao{
     display: flex;
-    gap: 100px;
+    gap: 50px;
 }
 
 .conteudo{
-    margin-left: 160px;
+    margin-left: 5rem;
     max-width: 60%;
 }
 
@@ -131,7 +137,8 @@ main{
 }
 
 .profile{
-    max-height: 40%;
+    margin-right: 10rem;
+    max-width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +156,7 @@ main{
     box-shadow: 5px 5px 5px rgba(137, 11, 129, 0.606);
 }
 
-.habilidades{
+#habilidades{
     margin-top: 300px;
     color: #fff;
     display: flex;
